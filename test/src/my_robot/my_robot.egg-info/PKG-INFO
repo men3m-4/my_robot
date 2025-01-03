@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: my_robot
+Version: 0.0.1
+Summary: A ROS 2 package for robot simulation and control
+Maintainer: ros-industrial
+Maintainer-email: your_email@example.com
+License: Apache License 2.0
+Requires-Dist: setuptools>=58.0.0

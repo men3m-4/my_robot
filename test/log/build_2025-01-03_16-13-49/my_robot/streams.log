@@ -1,0 +1,55 @@
+[2.350s] Invoking command in '/home/m4/test/build/my_robot': PYTHONPATH=/home/m4/test/build/my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/m4/test/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/m4/test/build/my_robot/build --no-deps symlink_data
+[2.832s] /home/m4/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[2.833s]   warnings.warn(msg)
+[3.428s] running develop
+[3.429s] /home/m4/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[3.429s] !!
+[3.429s] 
+[3.429s]         ********************************************************************************
+[3.430s]         Please avoid running ``setup.py`` and ``easy_install``.
+[3.430s]         Instead, use pypa/build, pypa/installer or other
+[3.430s]         standards-based tools.
+[3.430s] 
+[3.431s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[3.431s]         ********************************************************************************
+[3.431s] 
+[3.431s] !!
+[3.432s]   easy_install.initialize_options(self)
+[4.222s] running egg_info
+[4.276s] writing my_robot.egg-info/PKG-INFO
+[4.277s] writing dependency_links to my_robot.egg-info/dependency_links.txt
+[4.279s] deleting my_robot.egg-info/entry_points.txt
+[4.280s] writing requirements to my_robot.egg-info/requires.txt
+[4.281s] writing top-level names to my_robot.egg-info/top_level.txt
+[4.398s] reading manifest file 'my_robot.egg-info/SOURCES.txt'
+[4.403s] writing manifest file 'my_robot.egg-info/SOURCES.txt'
+[4.459s] running build_ext
+[4.460s] Creating /home/m4/test/install/my_robot/lib/python3.10/site-packages/my-robot.egg-link (link to .)
+[4.462s] 
+[4.462s] Installed /home/m4/test/build/my_robot
+[4.463s] running symlink_data
+[4.463s] creating /home/m4/test/install/my_robot/share/my_robot/launch
+[4.464s] symbolically linking /home/m4/test/build/my_robot/launch/gz_simulator_launch.py -> /home/m4/test/install/my_robot/share/my_robot/launch
+[4.465s] symbolically linking /home/m4/test/build/my_robot/launch/launch.py -> /home/m4/test/install/my_robot/share/my_robot/launch
+[4.465s] creating /home/m4/test/install/my_robot/share/my_robot/urdf
+[4.466s] symbolically linking /home/m4/test/build/my_robot/urdf/Assem1.urdf -> /home/m4/test/install/my_robot/share/my_robot/urdf
+[4.466s] creating /home/m4/test/install/my_robot/share/my_robot/world
+[4.467s] symbolically linking /home/m4/test/build/my_robot/world/depot.sdf -> /home/m4/test/install/my_robot/share/my_robot/world
+[4.468s] creating /home/m4/test/install/my_robot/share/my_robot/rviz
+[4.468s] creating /home/m4/test/install/my_robot/share/my_robot/meshes/collision
+[4.469s] symbolically linking /home/m4/test/build/my_robot/meshes/collision/lider.STL -> /home/m4/test/install/my_robot/share/my_robot/meshes/collision
+[4.469s] symbolically linking /home/m4/test/build/my_robot/meshes/collision/tire3.STL -> /home/m4/test/install/my_robot/share/my_robot/meshes/collision
+[4.470s] symbolically linking /home/m4/test/build/my_robot/meshes/collision/tire1.STL -> /home/m4/test/install/my_robot/share/my_robot/meshes/collision
+[4.470s] symbolically linking /home/m4/test/build/my_robot/meshes/collision/camera.STL -> /home/m4/test/install/my_robot/share/my_robot/meshes/collision
+[4.471s] symbolically linking /home/m4/test/build/my_robot/meshes/collision/tire4.STL -> /home/m4/test/install/my_robot/share/my_robot/meshes/collision
+[4.471s] symbolically linking /home/m4/test/build/my_robot/meshes/collision/base_link.STL -> /home/m4/test/install/my_robot/share/my_robot/meshes/collision
+[4.472s] symbolically linking /home/m4/test/build/my_robot/meshes/collision/tire2.STL -> /home/m4/test/install/my_robot/share/my_robot/meshes/collision
+[4.474s] creating /home/m4/test/install/my_robot/share/my_robot/meshes/visual
+[4.474s] symbolically linking /home/m4/test/build/my_robot/meshes/visual/lider.STL -> /home/m4/test/install/my_robot/share/my_robot/meshes/visual
+[4.475s] symbolically linking /home/m4/test/build/my_robot/meshes/visual/tire3.STL -> /home/m4/test/install/my_robot/share/my_robot/meshes/visual
+[4.475s] symbolically linking /home/m4/test/build/my_robot/meshes/visual/tire1.STL -> /home/m4/test/install/my_robot/share/my_robot/meshes/visual
+[4.476s] symbolically linking /home/m4/test/build/my_robot/meshes/visual/camera.STL -> /home/m4/test/install/my_robot/share/my_robot/meshes/visual
+[4.476s] symbolically linking /home/m4/test/build/my_robot/meshes/visual/tire4.STL -> /home/m4/test/install/my_robot/share/my_robot/meshes/visual
+[4.476s] symbolically linking /home/m4/test/build/my_robot/meshes/visual/base_link.STL -> /home/m4/test/install/my_robot/share/my_robot/meshes/visual
+[4.476s] symbolically linking /home/m4/test/build/my_robot/meshes/visual/tire2.STL -> /home/m4/test/install/my_robot/share/my_robot/meshes/visual
+[4.574s] Invoked command in '/home/m4/test/build/my_robot' returned '0': PYTHONPATH=/home/m4/test/build/my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/m4/test/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/m4/test/build/my_robot/build --no-deps symlink_data
